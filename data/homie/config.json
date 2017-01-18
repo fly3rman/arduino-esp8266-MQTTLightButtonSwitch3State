@@ -1,0 +1,19 @@
+{
+    "name": "The LightSwitch 1",
+    "device_id": "button",
+    "wifi": {
+        "ssid": "xxx",
+        "password": "yyy"
+    },
+    "mqtt": {
+        "host": "192.168.178.34",
+        "port": 1883,
+        "base_topic": "devices/"
+    },
+    "ota": {
+        "enabled": true
+    },
+    "settings": {
+        "percentage": 55
+    }
+}
