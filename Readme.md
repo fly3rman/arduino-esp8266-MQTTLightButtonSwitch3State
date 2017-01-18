@@ -15,18 +15,18 @@ Hardware:
 You probably need to change the folliwing lines:
 in /data/homie/config.json
 * Change your WiFi SSID and password here
-  ```
+```
   "wifi": {
         "ssid": "xxx",
         "password": "yyy"
     }
-  ```
+```
 * Change this to your MQTT-broker IP
-  ```
+```
   "mqtt": {
         "host": "192.168.178.34"
   }
-  ```
+```
 
 and in MQTTLightButtonSwitch3State.ino
 * If your button is attached to a different pin, change the name here:
